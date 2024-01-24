@@ -1,0 +1,23 @@
+GET http://localhost:3000/posts
+
+###
+GET http://localhost:3000/posts/4lCY3jZAnY5bcByAkgcl
+
+###
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+  "title" : "filmes"
+}
+
+###
+PUT http://localhost:3000/posts/4lCY3jZAnY5bcByAkgcl
+Content-Type: application/json
+
+{
+  "title" : "ação"
+}
+
+###
+DELETE http://localhost:3000/posts/4lCY3jZAnY5bcByAkgcl
